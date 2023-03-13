@@ -14,6 +14,64 @@ public class TipoDatos {
     int cantidaPalabras= 25;
     int arrayIntTres[] = new int[cantidaPalabras];
 
+    private String cadena = "hola";
+
+    public int[] getArrayint() {
+        return arrayint;
+    }
+
+    public void setArrayint(int[] arrayint) {
+        this.arrayint = arrayint;
+    }
+
+    public int[] getArrayIntDos() {
+        return arrayIntDos;
+    }
+
+    public void setArrayIntDos(int[] arrayIntDos) {
+        this.arrayIntDos = arrayIntDos;
+    }
+
+    public int[] getArrayTres() {
+        return arrayTres;
+    }
+
+    public void setArrayTres(int[] arrayTres) {
+        this.arrayTres = arrayTres;
+    }
+
+    public int getCantidaPalabras() {
+        return cantidaPalabras;
+    }
+
+    public void setCantidaPalabras(int cantidaPalabras) {
+        this.cantidaPalabras = cantidaPalabras;
+    }
+
+    public int[] getArrayIntTres() {
+        return arrayIntTres;
+    }
+
+    public void setArrayIntTres(int[] arrayIntTres) {
+        this.arrayIntTres = arrayIntTres;
+    }
+
+    public String getCadena() {
+        return cadena;
+    }
+
+    public void setCadena(String cadena) {
+        this.cadena = cadena;
+    }
+
+    public char[] getArrayChar() {
+        return arrayChar;
+    }
+
+    public void setArrayChar(char[] arrayChar) {
+        this.arrayChar = arrayChar;
+    }
+
     public int getNumber() {
         return number;
     }
@@ -25,6 +83,7 @@ public class TipoDatos {
     public char getCaracter() {
         return caracter;
     }
+
 
     public void setCaracter(char caracter) {
         this.caracter = caracter;
